@@ -34,8 +34,8 @@ The following libraries must be installed in Arduino IDE:
 
 | ESP8266 Pin | OLED Pin | Description |
 |------------|---------|-------------|
-| D5 (GPIO14)| SDA     | Serial data line |
-| D6 (GPIO12)| SCL     | Serial clock line |
+| D1 (GPIO5)| SDA     | Serial data line |
+| D3 (GPIO0)| SCL     | Serial clock line |
 | 3.3V       | VCC     | Power supply |
 | GND        | GND     | Ground |
 
