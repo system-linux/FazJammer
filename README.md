@@ -30,7 +30,7 @@ The following libraries must be installed in Arduino IDE:
 2. **Solder the Components to the Board:** Source the required components using the Bill of Materials found in the project documents and solder each part according to the schematic.  
 3. **Install libraries**: Use **Library Manager** in Arduino IDE to install the required libraries.
 4. **Upload the code**: Open `jammer.ino` in Arduino IDE and upload it to your ESP8266 board.
-5. **Print the Case**: Use the provided STEP or STL files to print the case and assemble with two M3x12 hex bolts.
+5. **Print the Case**: Use the provided STEP or STL files to print the case and assemble with two M3x12 hex bolts. Use the pin spacer part to prevent sharp pins poking your battery. Edit the bottom case part according to your needs, it is designed for a 82 x 50 x 6 mm battery for my case. 
 7. **Power up the device**: Switch the device on using the DIP switch and use the push button to switch modes. 
 
 ## Usage
