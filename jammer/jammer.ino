@@ -26,7 +26,6 @@ const int wifiFrequencies[] = {
   2462
 };
 
-
 void displayMessage(const char* line, uint8_t x = 55, uint8_t y = 22, const unsigned char* bitmap = helpy_menu_image) {
   //Radio'yu kapatıp SPI'yi bırak
   radio.powerDown();
@@ -117,11 +116,12 @@ void setup() {
   }
 }
 
-void fullAttack() {
-  for (size_t i = 0; i < 80; i++) {
+void AttackAll() {
+  for (size_t i = 0; i < 125; i++) {
     radio.setChannel(i);
   }
 }
+
 void wifiAttack() {
   for (int i = 0; i < sizeof(wifiFrequencies) / sizeof(wifiFrequencies[0]); i++) {
     radio.setChannel(wifiFrequencies[i] - 2400);
@@ -142,7 +142,7 @@ void loop() {
   }
   switch (attack_type) {
     case 0:
-      fullAttack();
+      AttackAll();
       break;
     case 1:
       wifiAttack();
