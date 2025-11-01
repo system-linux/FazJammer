@@ -2,6 +2,8 @@
 
 This project aims to develop a jammer using ESP8266 to interfere with BLE and Wi-Fi networks. The project utilizes the RF24 library to generate interference in the 2.4 GHz bands and provides user feedback via an OLED display.
 
+If you would like to run this project on an ESP32 board, you can check out [FazJammer_ESP32](https://github.com/elcaza/FazJammer_ESP32/) a port of this project.
+
 ## 📌 Requirements
 
 - **NodeMCU ESP8266** (or a compatible ESP8266-based board)
